@@ -26,6 +26,6 @@
             <RowDefinition Height="20"/>
             
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="20" Text="Potato farm"/>
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="24" Text="Potato farm"/>
     </Grid>
 </Window>
