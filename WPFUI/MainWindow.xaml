@@ -36,7 +36,7 @@
                    Margin="0 0 0 10"/>
         <TextBlock Grid.Column="1" 
                    Grid.Row="2" 
-                   Text="How many potatoes do you want?"
+                   Text="What is your name? Tell me."
                    Margin="0 0 7 0"/>
         <TextBox x:Name="firstNameText" 
                  Grid.Column="2"
@@ -45,6 +45,8 @@
         <Button x:Name="submitButton"
                 Content="Run Me"
                 Grid.Column="1"
-                Grid.Row="3"/>
+                Grid.Row="3"
+                Grid.ColumnSpan="2"
+                Margin="10" Click="submitButton_Click"/>
     </Grid>
 </Window>
