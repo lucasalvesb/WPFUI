@@ -36,6 +36,7 @@ namespace WPFUI
         private void submitButton_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show($"Hello, {firstNameText.Text}", "Hmm...");
+            people.Add(new Person { FullName = firstNameText.Text });
         }
     }
 }
