@@ -38,6 +38,9 @@ namespace WPFUI
         {
             MessageBox.Show($"Hello, {firstNameText.Text}", "Hmm...");
             people.Add(new Person { FirstName = firstNameText.Text, LastName = lastNameText.Text });
+
+            firstNameText.Text = "";
+            lastNameText.Text = "";
         }
     }
 }

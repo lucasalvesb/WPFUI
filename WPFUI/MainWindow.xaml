@@ -52,12 +52,6 @@
                  Grid.Row="3"
                  Width="150"
                  Margin="0 5 0 0"/>
-        <Button x:Name="submitButton"
-                Content="Run Me"
-                Grid.Column="1"
-                Grid.Row="5"
-                Grid.ColumnSpan="2"
-                Margin="0 5 0 0" Click="submitButton_Click"/>
         <ComboBox x:Name="myComboBox"
                   Grid.Column="1"
                   Grid.Row="4"
@@ -69,5 +63,13 @@
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
+        <Button x:Name="submitButton"
+                  Content="Run Me"
+                  Grid.Column="1"
+                  Grid.Row="5"
+                  Grid.ColumnSpan="2"
+                  Margin="0 5 0 0" Click="submitButton_Click"/>
+
+
     </Grid>
 </Window>
