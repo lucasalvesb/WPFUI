@@ -59,7 +59,10 @@
                   Margin="0 5 0 0">
             <ComboBox.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding FullName}" />
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="https://cdn.shopify.com/s/files/1/0011/0552/articles/RCF_blog_1600x.jpg" Width="40" Height="40" />
+                        <TextBlock Text="{Binding FullName}" />
+                    </StackPanel>
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
@@ -75,7 +78,8 @@
                    Source="https://image.petmd.com/files/styles/863x625/public/orange-tabby-kitten-walking-across-floor.jpg"
                    Margin="15 0 0 0 "
                />
-
+        
+        
 
     </Grid>
 </Window>
