@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,7 @@ namespace WPFUI
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<Person> people = new List<Person>();
+        public ObservableCollection<Person> people = new ObservableCollection<Person>();
 
         public MainWindow()
         {
@@ -36,7 +37,7 @@ namespace WPFUI
         private void submitButton_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show($"Hello, {firstNameText.Text}", "Hmm...");
-            people.Add(new Person { FullName = firstNameText.Text });
+            people.Add(new Person { FirstName = firstNameText.Text, LastName = lastNameText.Text });
         }
     }
 }
