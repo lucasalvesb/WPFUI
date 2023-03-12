@@ -69,6 +69,12 @@
                   Grid.Row="5"
                   Grid.ColumnSpan="2"
                   Margin="0 5 0 0" Click="submitButton_Click"/>
+        <Image Grid.Row="1" 
+                   Grid.Column="4" 
+                   Grid.RowSpan="6" 
+                   Source="https://image.petmd.com/files/styles/863x625/public/orange-tabby-kitten-walking-across-floor.jpg"
+                   Margin="15 0 0 0 "
+               />
 
 
     </Grid>
