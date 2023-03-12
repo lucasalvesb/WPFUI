@@ -61,7 +61,7 @@
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="https://cdn.shopify.com/s/files/1/0011/0552/articles/RCF_blog_1600x.jpg" Width="40" Height="40" />
-                        <TextBlock Text="{Binding FullName}" />
+                        <TextBlock Text="{Binding FullName}" Margin="5 10 0 0"/>
                     </StackPanel>
                 </DataTemplate>
             </ComboBox.ItemTemplate>
