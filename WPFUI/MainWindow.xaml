@@ -51,6 +51,12 @@
         <ComboBox x:Name="myComboBox"
                   Grid.Column="1"
                   Grid.Row="4"
-                  Grid.ColumnSpan="2"/>
+                  Grid.ColumnSpan="2">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding FirstName}" />
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
     </Grid>
 </Window>
